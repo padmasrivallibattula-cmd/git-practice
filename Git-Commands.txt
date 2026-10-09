@@ -1,0 +1,32 @@
+Install Git version for your operating system from official website ^[[200~https://git-scm.com/install/~
+
+Create Github account and configure git on your computer
+ >Check for git version  /  git --version   /
+
+Configure Git
+   git config --global user.name "Your name"
+   git config --global user.email "your email@example.com"
+
+Commands
+  mkdir -> creates a project folder
+  cd folder_name -> opens folder in terminal
+  git init -> starts a git repository in that folder
+
+run above all commands in git bash
+
+Save your code in Git
+  if suppose it's a python file save it in vs code with file_name.py
+git add file_name.py -> saves file changes
+git commit -m ""     -> saves a snapshot of those changes
+
+
+Connect your project to GitHub
+
+  >create a repository in github and copy repository URL
+in VS code terminal
+  >git branch -M main  => names your current branch main
+  >git remote add origin repository_URL
+  >git remote add origin repository_URL => connects your local project to GitHub repository
+  >git push -u origin main => uploads your commited code Github
+
+an authentication will show up to connect to Github
