@@ -1,0 +1,30 @@
+git --version
+  displays installed git version
+
+git status 
+  shows current state of working directory
+
+git add filename
+  stages a file for next commit
+
+git commit -m "message"
+  saves staged changes in local repository
+
+git push
+  uploads local commits to remote repository
+
+git pull
+  fetches and integrates changes from remote repository
+
+git init
+  creates a new local git repository
+
+git log --oneline
+  displays a short histroy of commits
+
+git remote -v
+  displays connected remote repository URLs
+
+git diff
+  shows changes that have not been staged
+
